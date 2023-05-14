@@ -17,7 +17,7 @@ function products (products) {
                         <img src="${product.image}" alt="${product.name}">
                     </div>
                     <div class="product__content">
-                        <button type="button" class="out__stock product__btn add-to--cart data-id="${product.id}" disabled>
+                        <button type="button" class="out__stock product__btn add-to--cart" data-id="${product.id}" disabled>
                         <i class='bx bx-sad' ></i>
                         </button>
                         <span class="product__price">$ ${product.price}</span>
@@ -31,7 +31,7 @@ function products (products) {
                     <img src="${product.image}" alt="${product.name}">
                 </div>
                 <div class="product__content">
-                    <button type="button" class="product__btn add-to--cart data-id="${product.id}" category="${product.name.split(" ")[0]}">
+                    <button type="button" class="product__btn add-to--cart" data-id="${product.id}" category="${product.name.split(" ")[0]}">
                         <i class="bx bx-cart-add"></i>
                     </button>
                     <span class="product__price">$ ${product.price}</span>

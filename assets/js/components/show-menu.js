@@ -6,6 +6,14 @@ function showMenu () {
         if (e.target.closest('.btn--menu')) {
             menu.classList.toggle('show--menu')
         }
+
+        if(e.target.closest('.btn--close')){
+            menu.classList.remove("show--menu")
+        }
+
+        if(e.target.closest('.nav__items')){
+            menu.classList.remove('show--menu')
+        }
     })
 }
 

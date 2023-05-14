@@ -3,6 +3,7 @@ import showMenu from './components/show-menu.js'
 import showCart from '../components/showCart.js'
 import products from '../components/products.js'
 import getProducts from '../components/Getproducts.js'
+import cart from '../components/cart.js'
 
 /* Ul Elements */
 /* Ocultar Loader */
@@ -16,7 +17,8 @@ import getProducts from '../components/Getproducts.js'
 
  // products //
 
- const { db, printProducts } = products(await getProducts())
+ const { db, printProducts } = products(await 
+getProducts())
 
  /* Carrito */
 
