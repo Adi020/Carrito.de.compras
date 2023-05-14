@@ -107,7 +107,7 @@ function cart (db, printProducts) {
             const productFinded = db.find(p => p.id === item.id)
             total += item.qty * productFinded.price
         }
-        return total
+        return `$${total}`
     }
 
     function checkout () {
