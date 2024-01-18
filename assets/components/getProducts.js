@@ -3,7 +3,6 @@ async function getProducts () {
         const res = await window.fetch("https://ecommercebackend.fundamentos-29.repl.co/")
         const data = [
     {"id":'001', "name":'hoodie', "price":25.00, "image":'https://img.represent.com/uploads/97cc04c33fb623827703747d01496782.jpeg?w=750&q=95&auto=format', color: null, talle: null},
-    {"id":'002', "name":'sudadera', "price":15.00, "image:'https://img.represent.com/uploads/ad9b3e6580cf66d28cbd90314ecdd0a6.jpeg?w=750&q=95&auto=format', color: null, talle: null},
     {"id":'003', "name":'camisa', "price":20.00, "image":'https://img.represent.com/uploads/a76857819caae151f62fb58e05621acd.jpeg?w=750&q=95&auto=format', color: null, talle: null},
     {"id":'004', "name":'camisa', "price":30.00, "image":'https://img.represent.com/uploads/e33ba02f02bf3f18ba5e0db1a424ba56.jpeg?w=750&q=95&auto=format', color: null, talle: null},
     {"id":'005', "name":'hoodie', "price":10.00, "image":'https://img.represent.com/uploads/535666bf499a0c508ace882bb0420436.jpeg?w=750&q=95&auto=format', color: null, talle: null},
