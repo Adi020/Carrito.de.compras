@@ -14,7 +14,8 @@ async function getProducts () {
     {"id":'0011', "name":'sudadera', "price":'25.00', "image":'https://img.represent.com/uploads/39eecc78c3a4e8bcf0542f9088d0df61.jpeg?w=750&q=95&auto=format', color: null, talle: null},
     {"id":'0012', "name":'hoodie', "price":19.00, "image":'https://img.represent.com/uploads/39eecc78c3a4e8bcf0542f9088d0df61.jpeg?w=750&q=95&auto=format', color: null, talle: null},
     {"id":'0013', "name":'camisa', "price":8.00, "image":'https://img.represent.com/uploads/39eecc78c3a4e8bcf0542f9088d0df61.jpeg?w=750&q=95&auto=format', color: null, talle: null},
-    {"id":'0014', "name":'sudadera', "price":10.00, "image":'https://img.represent.com/uploads/39eecc78c3a4e8bcf0542f9088d0df61.jpeg?w=750&q=95&auto=format', color: null, talle: null}
+    {"id":'0014', "name":'sudadera', "price":10.00, "image":'https://img.represent.com/uploads/39eecc78c3a4e8bcf0542f9088d0df61.jpeg?w=750&q=95&auto=format', color: null, talle: null},
+
 ] //await res.json()
         return data
     } catch (error) {
