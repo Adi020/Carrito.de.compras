@@ -7,7 +7,7 @@ async function getProducts () {
 //        console.log(error)
 // }
     return [
-    {"id":1, "name":'hoodie', "price":25.00, "image":'https://img.represent.com/uploads/97cc04c33fb623827703747d01496782.jpeg?w=750&q=95&auto=format'},
+    {id:1, name:'hoodie', price:25.00, image:'https://img.represent.com/uploads/97cc04c33fb623827703747d01496782.jpeg?w=750&q=95&auto=format'},
     {"id":2, "name":'camisa', "price":20.00, "image":'https://img.represent.com/uploads/a76857819caae151f62fb58e05621acd.jpeg?w=750&q=95&auto=format'},
     {"id":3, "name":'camisa', "price":30.00, "image":'https://img.represent.com/uploads/e33ba02f02bf3f18ba5e0db1a424ba56.jpeg?w=750&q=95&auto=format'},
     {"id":4, "name":'hoodie', "price":10.00, "image":'https://img.represent.com/uploads/535666bf499a0c508ace882bb0420436.jpeg?w=750&q=95&auto=format'},
@@ -21,7 +21,7 @@ async function getProducts () {
     {"id":12, "name":'camisa', "price":8.00, "image":'https://img.represent.com/uploads/39eecc78c3a4e8bcf0542f9088d0df61.jpeg?w=750&q=95&auto=format'},
     {"id":13, "name":'sudadera', "price":10.00, "image":'https://img.represent.com/uploads/39eecc78c3a4e8bcf0542f9088d0df61.jpeg?w=750&q=95&auto=format'}
 
-].json()
+]
 }
 
 export default getProducts
