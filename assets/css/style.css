@@ -352,7 +352,7 @@ button {
 }
 
 .product__image {
-    padding: var(--sp-1);
+    /* padding: var(--sp-1); */
     background-color: var(--card-color);
 }
 
